@@ -130,26 +130,6 @@
 
 li { list-style: none;}
 
-
-
-
-
-
-
-/* add by me img and logo brightness */
-img {
-  filter: brightness(60%);  /* Adjust brightness, lower value = darker */
-}
-.logo img,
-.hero-btn img {
-  filter: brightness(120%); /* Increase brightness by 20% */
-}
-
-
-
-
-
-
 a,
 img,
 data,
