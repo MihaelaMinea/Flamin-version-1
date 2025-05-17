@@ -128,7 +128,15 @@
   box-sizing: border-box;
 }
 
+
 li { list-style: none;}
+
+
+
+
+img {
+  filter: brightness(60%);  /* Adjust brightness, lower value = darker */
+}
 
 a,
 img,
@@ -571,7 +579,7 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 60px;
 }
 
-/*added by me, the logo was to height*/
+
 .logo img {
   height: 100px; /* Adjust as needed */
   width: auto; /* Maintains aspect ratio */
@@ -732,16 +740,21 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 6px;
 }
 
-/* text Book event */
+/* text call to Book an event */
 .hero-btn .span {
   color: var(--black);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-1);
   line-height: var(--lineHeight-3);
+   /*changes*/
+  font-size: 16px; /* Make the text bigger, adjust as needed */
+  text-align: center; /* Ensures the text is horizontally centered */
+  display: block; /* Ensures the text behaves like a block element */
+  margin: 0 auto; /* Centers the text within the container */
 }
 
-/*border Book event rotate */
+/*border call to Book an event rotate */
 .hero-btn::after {
   inset: 0;
   border: 1px solid var(--gold-crayola);
