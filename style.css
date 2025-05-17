@@ -137,6 +137,7 @@ li { list-style: none;}
 img {
   filter: brightness(60%);  /* Adjust brightness, lower value = darker */
 }
+.logo img { filter: brightness(120%); }
 
 a,
 img,
